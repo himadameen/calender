@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(2, 0, 36);
+    background: radial-gradient(circle, rgba(2, 0, 36, 1));
+}
+
+.container {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 500px;
+    margin: auto;
+}
+
+.container>form {
+    width: 90%;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 5px;
+    background: white;
+}
+
+.cal {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#btn {
+    background: #0563b4;
+    color: white;
+}
+
+#btn:hover {
+    background: black;
+}
+
+p {
+    color: red;
+}
